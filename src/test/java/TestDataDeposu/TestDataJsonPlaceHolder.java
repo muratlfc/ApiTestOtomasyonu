@@ -54,26 +54,25 @@ public class TestDataJsonPlaceHolder {
 
     }
 
+    public HashMap requestBodyMapOlustur(String title , String body , double userId , double id){
+
+        HashMap<String , Object > requestBodyMap = new HashMap<>();
+
+        requestBodyMap.put("title" , title);
+        requestBodyMap.put("body" , body);
+        requestBodyMap.put("uderId" , userId);
+        requestBodyMap.put("id" ,id);
 
 
 
 
 
 
+    return requestBodyMap;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 }
 

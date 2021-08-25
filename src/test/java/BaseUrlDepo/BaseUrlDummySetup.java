@@ -10,7 +10,10 @@ public class BaseUrlDummySetup {
 
     @Before
     public void setUp(){
-        specDummyRestApi = new RequestSpecBuilder().setBaseUri("http://dummy.restapiexample.com/api/v1/").build();
+        specDummyRestApi =
+                new RequestSpecBuilder().
+                        setBaseUri("http://dummy.restapiexample.com/api/v1/").
+                        build();
 
 
 
